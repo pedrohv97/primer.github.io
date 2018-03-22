@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact - Space Science Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script src="js/mobile.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><img src="images/logo.png" alt="" height="60"></a>
+				<ul id="navigation">
+					<li>
+						<a href="index.html">inicio</a>
+					</li>
+					<li>
+						<a href="about.html">sinopsis</a>
+					</li>
+					<li>
+						<a href="projects.html">La caja</a>
+					</li>
+					<li>
+						<a href="blog.html">Making of</a>
+					</li>
+					<li class="selected">
+						<a href="contact.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div class="contact">
+					<h1>Contacto</h1>
+					<h2>Contacta con nosotros</h2>
+					<form action="index.html">
+						<input type="text" name="Name" value="Nombre" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="Email Address" value="Dirección email" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="Subject" value="Asunto" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<textarea name="message" cols="50" rows="7">Mensaje</textarea>
+						<input type="submit" value="Enviar" id="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="connect">
+				<div>
+					<h1>Siguenos en</h1>
+					<div>
+						<a href="http://facebook.com/pedro.hernandezvegas" class="facebook">facebook</a>
+						<a href="https://twitter.com/Pedroherndez?lang=es" class="twitter">twitter</a>
+					</div>
+				</div>
+			</div>
+			<div class="footnote">
+				<div>
+					<p>© 2018 BY PEDRO HERNÁNDEZ VEGAS</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
